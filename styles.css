@@ -1,0 +1,45 @@
+body{
+    background: lightgray;
+}
+.container{
+    background: lightgray;
+    width: 700px;
+    margin:auto;
+}
+header{
+    background: white;
+    margin-bottom: 50px;
+}
+header h1{
+    margin:0;
+    padding: 5px;
+}
+div[class*="postImage"] img {
+    width: 100%; 
+    height: auto;
+    background: white; 
+}
+div[class*="Wrapper"] {
+    background: white;
+}
+div[class*='Photo'] {
+    display: flex;
+    background: white;
+    padding: 5px;
+}
+div[class*="postPhoto"] p {
+    width: 70%;
+    text-align: right;
+}
+div[class*="postPhoto"] h3 {
+    width: 30%;
+}
+div[class*="postText"] p{
+    background: white;
+    display: inline;
+    width: 100%; 
+}
+div[class*="postText"] {
+    padding: 5px;
+    margin-bottom: 50px;
+}
